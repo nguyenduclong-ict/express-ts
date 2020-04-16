@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["src/*"],
+      "@data/*": ["src/data/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist"],
+  "lib": ["es2015"]
+}
